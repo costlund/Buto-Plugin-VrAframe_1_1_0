@@ -1,0 +1,15 @@
+-
+  type: a-scene
+  innerHTML:
+    -
+      type: a-assets
+      innerHTML:
+        -
+          type: a-asset-item
+          attribute:
+            id: tree
+            src: rs:src
+    -
+      type: a-entity
+      attribute:
+        gltf-model: '#tree'
